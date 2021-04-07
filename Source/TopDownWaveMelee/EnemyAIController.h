@@ -13,7 +13,6 @@ UCLASS()
 class TOPDOWNWAVEMELEE_API AEnemyAIController : public AAIController
 {
 	GENERATED_BODY()
-	UPROPERTY(VisibleAnywhere,BlueprintReadWrite)
-	TD_Character*  player;
+
 	
 };
